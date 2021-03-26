@@ -25,8 +25,8 @@ the [DSharpPlus](https://github.com/DSharpPlus/DSharpPlus) library.
 | ✔️    | Add logging                                                                                 | ~           |
 | ✔️    | Add help                                                                                    | ~              |
 | ❌     | Delete messages                                                                             | 1              |
-| ❌     | Move messages from one channel to another
-|      ✔️          | Receive news from RSS feeds | ~
+| ❌     | Move messages from one channel to another | 2 |
+|      ✔️          | Receive news from RSS feeds | ~  |
 
 The level of priority is designed as follows :
 

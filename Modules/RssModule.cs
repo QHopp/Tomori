@@ -53,7 +53,7 @@ namespace Tomori.Modules
                     try
                     {
                         Uri uri_parsed = new(channel.Topic);
-                        var path = $"log_rss/log_{uri_parsed.Host}.txt";
+                        var path = $"log_rss/{ctx.Guild.Id}_log_{uri_parsed.Host}.txt";
                         IEnumerable<SyndicationItem>? feed;
                         if (File.Exists(path))
                         {
